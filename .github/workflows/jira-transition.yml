@@ -22,7 +22,7 @@ jobs:
       id: getIssue
       uses: atlassian/gajira-find-issue-key@v3
       with:
-        string: DF-4
+        string: DF-1
         
     - name: Transition issue
       uses: atlassian/gajira-transition@master
